@@ -15,6 +15,6 @@ public class CustomerBaseUrl {
 
     @BeforeEach
     public void setup(){
-        spec = new RequestSpecBuilder().setBaseUri("http://localhost:8080/api/customer/").build();
+        spec = new RequestSpecBuilder().setBaseUri("http://localhost:8181/api/customer/").build();
     }
 }
